@@ -1396,6 +1396,15 @@ div#w-node-b857556d-1687-6c38-3c55-d45f64a50133-abe163d3 {
 		height: 90%;
 		padding-top: 15em;
 	}
+	.section.frm_sec form.wrapform-form {
+		display: block;
+	}
+	.section.frm_sec form.wrapform-form input, .section.frm_sec form.wrapform-form .wrapform-wrapselectcontry, .section.frm_sec form.wrapform-form  .wrapform-wrapselect {
+		margin-bottom: 20px;
+	}
+	.section.frm_sec form.wrapform-form .wrapform-wrapselectcontry input#phone {
+		margin: 0px;
+	}
 }
 
 @media screen and (max-width: 667px) {
