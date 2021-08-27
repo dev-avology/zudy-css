@@ -439,8 +439,32 @@ div#w-node-b857556d-1687-6c38-3c55-d45f64a50133-abe163d3 {
   -ms-grid-row-span: 1;
 }
 
-/***********media css***************/
+.block-wrapform.w-form .wrapform-form label.w-checkbox {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 40px;
+    position: relative;
+}
+.block-wrapform.w-form .wrapform-form label.w-checkbox .w-checkbox-input {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    box-shadow: none !important;
+    border-width: 1px;
+}
+.block-wrapform.w-form .wrapform-form label.w-checkbox .w-checkbox-input.w--redirected-checked {
+    border-width: 6px;
+    background-color: #b5e000;
+    border-color: #b5e000;
+    color: #fff;
+}
+.block-wrapform.w-form .wrapform-form label.w-checkbox span.w-form-label a {
+    color: rgba(0, 0, 0, 0.5);
+}
 
+/***********media css***************/
 @media only screen and (min-width: 992px) and (max-width: 1920px) {
     section.section._100vh-horizontal .horizon-wraph6.absolute {
         bottom: 5em;
