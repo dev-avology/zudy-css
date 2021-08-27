@@ -23,15 +23,15 @@
 .hdp-fixed .w-dropdown-link.w--current {
     color: #b5e000!important;
 }
-    .hdp-fixed .w-dropdown-link:hover {
+.hdp-fixed .w-dropdown-link:hover {
    color: #b5e000!important;
 }
-  .block-hero1 .psmall-reg {
+.block-hero1 .psmall-reg {
    font-size: 22px;
    font-weight: normal;
    opacity: 50%;
 }
-  .videos-wrap:after {
+.videos-wrap:after {
    content: "";
    position: absolute;
    background-color: #08e8f0;
@@ -385,6 +385,15 @@ margin: 0 10px;
 .section.quote_sec .slider-wrapslider {
     margin: 0 0 80px 0;
 }
+/***************************/
+div#preloader .preloader-wrapbigtitle h1 {
+    font-size: 80px;
+}
+.section.unlimited .unlimited-wrap3 .unlimited-wrap4 .unlimited-wrapimg4 img {
+    object-fit: cover;
+}
+/**************************/
+
 @media screen and (max-width:1440px){
   section.section._100vh-horizontal .horizon-img {
     height: 180px;
@@ -459,8 +468,7 @@ div#Section-Bottom .trial-grid .trial-wrap h3 {
 }
 }
 @media screen and (max-width:991px){
-    
-  	#id1 .trialform-heading .w-layout-grid.grid-3 {
+#id1 .trialform-heading .w-layout-grid.grid-3 {
    display: block;
    margin-top: 30px;
 }
@@ -1277,15 +1285,12 @@ section.bdp form#email-form {
    margin: 15px 0 0;
 }
 section.bdp form#email-form input.formbutton {
-   position: absolute;
-   top: 0;
-   right: 0;
-   height: 50px;
-   max-width: 100px;
-   width: 100%;
-   font-size: 14px;
-   letter-spacing: 1px;
-   z-index: 11;
+    height: 50px;
+    max-width: 160px;
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 15px;
 }
 section.bdp {
    padding: 50px 0 30px 0;
@@ -1296,6 +1301,25 @@ div#preloader .preloader-wrapbigtitle h1 {
 }
 div#preloader .preloader-wrapbigtitle {
    padding: 0;
+}
+section.bdp .bdp-footer {
+    display: block;
+    text-align: center;
+}
+section.bdp .bdp-footer .bdp-wrapimg3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 0 10px 0;
+}
+section.bdp .bdp-footer .bdp-legals {
+    margin-top: 10px;
+}
+section.bdp .bdp-footer .bdp-legals a .pextrasmall-light {
+    line-height: normal;
+}
+.section.unlimited .unlimited-wrap3 .unlimited-wrapimg3 {
+    left: 0;
 }
   }
     @media screen and (max-width:667px) {
